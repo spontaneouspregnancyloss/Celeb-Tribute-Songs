@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Stone_1 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+<div class='verse-section'>[Verse 1 female vocals, piano-led, light guitar]  </div>
+I tally the months I crossed and couldn’t stay,  
+Five and a half, and the world kept turning,  
+No room to put down the weight I was holding,  
+No space to say what my body and heart already knew.
+
+<div class='verse-section'>[Pre-Chorus softer vocal lift, brushed drums enter]  </div>
+They tell you to hush, to keep it tidy,  
+As if grief is something private and neat.
+
+<div class='verse-section'>[Chorus strong female vocal, fuller band with strings]  </div>
+Not a small thing—don’t make me carry it alone;  
+Give me compassion, the empathy and the healing named out loud;  
+I won’t wear shame for what I couldn’t control,  
+I’m saying it plainly so I don’t bear it alone.
+
+<div class='verse-section'>[Verse 2 vocals steady, piano forward]  </div>
+There were so many losses I stopped counting out loud,  
+Nine times I learned how absence can ache in the body,  
+How a room can go silent after hours of effort,  
+How the drive home can be the darkest mile.
+
+<div class='verse-section'>[Pre-Chorus gentle rise, harmony layers]  </div>
+I needed a mother’s arms around that emptiness,  
+But the world had meetings, and lights, and go on.
+
+<div class='verse-section'>[Chorus full dynamics, emotive strings swell]  </div>
+Not a small thing—don’t make me carry it alone;  
+Give me compassion, the empathy and the healing named out loud;  
+I won’t wear shame for what I couldn’t control,  
+I’m saying it plainly so I don’t bear it alone.
+
+<div class='verse-section'>[Bridge intimate vocal, piano and soft strings only]  </div>
+I learned to speak when there wasn’t a forum,  
+To step out of secrecy, refuse that failure they assign;  
+My voice is the space I wasn’t given,  
+My truth is the hand I needed at the time.
+
+<div class='verse-section'>[Chorus-Out soaring female vocal, full band then fade to piano]  </div>
+Not a small thing—stand with me, say it out loud,  
+Compassion, empathy, healing—let them crowd out the doubt.  
+I won’t wear shame; I’m laying it down,        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>

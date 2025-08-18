@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany Haddish_1 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+<div class='verse-section'>[Verse 1]  </div>
+I call the nurse—she tells me it’s happening now,  
+I count it out, eight, steady on the line.  
+I don’t want the chorus of are-you-okays,  
+so I get small, more creature than crowd,  
+find a cave and tend what no one sees,  
+let the phone keep ringing in another room,  
+wait out the questions I can’t carry,  
+then step back into the day.
+
+<div class='verse-section'>[Pre-Chorus]  </div>
+Each time I find out, I change my ways—  
+no drinking, no smoking—I give it a chance.  
+Then the bleeding comes and a word returns,  
+and I prepare for the quiet again.
+
+<div class='verse-section'>[Chorus]  </div>
+A heart-shaped house that won’t hold what I grow,  
+I keep the hope I cleared space for.  
+I heal in quiet and breathe again;  
+it devastates me, and I’m still here.
+
+<div class='verse-section'>[Verse 2]  </div>
+Some days the pain drops me to the floor,  
+first day feels like the devil is real.  
+They said endometriosis—layers shaved away;  
+hormones make me drowsy, so I move my body more.  
+The bleeding runs heavy; the word returns;  
+they do the D&amp;C and send me home.  
+I mark the cycle shifting, eleven down to five,  
+counting new mercies in shorter nights.
+
+<div class='verse-section'>[Bridge]  </div>
+Every time I learn there’s life in me, I change—  
+no smoke, no drink, I give it a chance.  
+Even when I’m unsure what I can hold,  
+I go back to the quiet and tend what hurts.
+
+<div class='verse-section'>[Chorus]  </div>
+A heart-shaped house that won’t hold what I grow,  
+I keep the hope I cleared space for.  
+I heal in quiet and breathe again;  
+it devastates me, and I’m still here.
+
+HashTags  
+StillCarried #SpontaneousPregnancyLoss #PregnancyLossAwareness #SPLProject        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah Guthrie_2 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+<div class='verse-section'>[Verse 1 — female vocal, fingerpicked guitar + soft piano]  </div>
+Clock hands blurred the years before I noticed,  
+Dreams folded into the corners of quiet rooms,  
+I set down the weight before it could break me,  
+Telling myself it was kindness to stop believing.
+
+<div class='verse-section'>[Pre-Chorus — soft strings rising behind piano]  </div>
+I whispered to the silence, “It’s okay,”  
+Maybe I was never meant to ask for more.
+
+<div class='verse-section'>[Chorus / Hook — full vocal, acoustic guitar + light percussion]  </div>
+Maybe it’s not meant for me—but I’ll hold hope quietly,  
+Grateful for the blessings that already fill my hands,  
+Protecting my heart with the words I repeat,  
+Maybe it’s not meant for me—but I’ll hold hope quietly.
+
+<div class='verse-section'>[Verse 2 — stripped back, piano centered]  </div>
+I told myself I wasn’t entitled to another gift,  
+That the love I had was enough for a lifetime.  
+Gratitude became a soft shield I carried,  
+A way to keep the ache from speaking too loudly.
+
+<div class='verse-section'>[Bridge — hushed female vocal, piano only, strings swell at close]  </div>
+Later I saw the shield for what it was,  
+A defense built gently to guard the tender places.  
+Still, in the cracks of my careful acceptance,  
+A small flame of longing flickered and stayed.
+
+<div class='verse-section'>[Chorus-Outro — soaring vocal, guitar + piano + strings, fade gently]  </div>
+Maybe it’s not meant for me—but I’ll hold hope quietly,  
+Thankful for the light already given to me,  
+I cradle it softly, without asking for more,        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>

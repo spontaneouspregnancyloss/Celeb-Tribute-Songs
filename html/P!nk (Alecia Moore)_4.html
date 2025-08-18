@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P!nk (Alecia Moore)_4 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+**[Verse 1]**  
+Seventeen cut me open, a loss I couldn’t mend,  
+My body broke its promise, the dream became the end.  
+Carried silence heavy, it wrapped around my skin,  
+Believed I was the failure buried deep within.
+
+**[Pre-Chorus]**  
+But every scar, every line, became my song to sing,  
+A voice that rose from ashes, stronger than the sting.
+
+**[Chorus]**  
+Even broken, I am unbroken, singing louder than my pain,  
+I’ve been shattered, bruised, and spoken, yet I rise again.  
+I’ll write the darkest pieces, I’ll laugh through what I can,  
+Even broken, I am unbroken—this is who I am.
+
+**[Verse 2]**  
+More than once I stumbled, more than once I bled,  
+Each heartbreak whispered shadows, echoing my head.  
+But therapy held the mirror, showed me what was real,  
+Pulled the ghosts from silence, taught my soul to heal.
+
+**[Pre-Chorus]**  
+So I bleed it on the paper, I sing it to the crowd,  
+Owning every moment, I finally say it loud.
+
+**[Chorus]**  
+Even broken, I am unbroken, singing louder than my pain,  
+I’ve been shattered, bruised, and spoken, yet I rise again.  
+I’ll write the darkest pieces, I’ll laugh through what I can,  
+Even broken, I am unbroken—this is who I am.
+
+**[Bridge]**  
+I joke when it’s too heavy, I cry when I can’t cope,  
+Self-deprecation’s weapon still aims its laugh at hope.  
+I’m not ashamed of bleeding, not ashamed of scars,  
+The body that betrayed me still carried who we are.
+
+**[Final Chorus – soaring]**  
+Even broken, I am unbroken, my voice will not be tamed,  
+Unashamed, alive, outspoken, rising through the flame.  
+I’ll sing the darkest pieces, I’ll love through what I can,  
+Even broken, I am unbroken—this is who I am.
+
+**[Outro]**  
+Even broken… still unbroken.  
+Stronger for the pain.
+
+**200-character style:**  
+Emotional pop-rock ballad with piano undercurrent, soaring guitars, and heartfelt vocals. Vulnerable verses bloom into anthemic choruses—raw honesty with grit, healing, and power.
+
+**300-character style:**  
+Anthemic ballad blending piano, steady drums, and swelling guitars. Vocals channel P!nk’s ballad style (_Who Knew_, _Just Give Me a Reason_): raw yet melodic, emotional and soaring. Themes of miscarriage, shame, therapy, and resilience unfold into a chorus of healing, ending with unvarnished strength.        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>

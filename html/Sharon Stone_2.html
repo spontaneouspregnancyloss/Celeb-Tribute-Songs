@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Stone_2 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+<div class='verse-section'>[Verse 1 female vocals, piano-only intro]  </div>
+Fluorescent hours blur into a wordless room,  
+Thirty-six slow clocks and then a still hush,  
+Hands empty, body aching like a struck bell,  
+The hallway swallows footsteps that won’t come back.
+
+<div class='verse-section'>[Pre-Chorus soft lift, light brushed drums]  </div>
+I’m told to carry it quietly, like paperwork,  
+To file it where no one has to see.
+
+<div class='verse-section'>[Chorus fuller female vocal, piano + strings swell]  </div>
+Not a small thing—don’t make me carry it alone;  
+Say the words: compassion, empathy, healing,  
+Set them like candles on this dark road;  
+I won’t accept shame as a souvenir.
+
+<div class='verse-section'>[Verse 2 voice steady, guitar joins softly]  </div>
+Five and a half months can hold a lifetime,  
+And still be measured as a secret I shouldn’t name;  
+Nine times taught me how silence can echo in the body,  
+How even the drive home can dim the sun.
+
+<div class='verse-section'>[Bridge intimate vocal, piano with light strings]  </div>
+No room at work to set down the flowers,  
+No notice for grief, no place to sit;  
+So I speak where there wasn’t a forum,  
+And make a little space with my breath.
+
+<div class='verse-section'>[Chorus-Out soaring female vocal, full band with strings then fade to piano]  </div>
+Not a small thing—don’t make me carry it alone;  
+Compassion, empathy, healing—let them be the hold,  
+I’m done with the secrecy they taught me to keep,        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sammi -Sweetheart- Giancola_2 - Lyrics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .lyrics-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .lyrics-header, .lyrics-footer {
+            text-align: center;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .lyrics-footer {
+            border-bottom: none;
+            border-top: 2px solid #eee;
+            padding-top: 15px;
+            padding-bottom: 0;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+        .lyrics-content {
+            white-space: pre-line;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007acc;
+        }
+        .verse-section {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007acc;
+            font-size: 1em;
+        }
+        .copy-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .copy-button:hover {
+            background: #005a9e;
+        }
+        .copy-button:active {
+            background: #004080;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .lyrics-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lyrics-container">
+        <div class="lyrics-header">[Lyrics]</div>
+        <div class="lyrics-content" id="lyricsContent">
+
+
+
+<div class='verse-section'>[Verse 1 — female vocals, sparse guitar arpeggio + faint vinyl crackle]  </div>
+Glass vials lined like tiny stars on the table,  
+Needles glint in lamplight, prayers under breath,  
+I held a spark—brief, impossible, fragile,  
+Then silence fell heavy as a closed door.
+
+<div class='verse-section'>[Pre-Chorus — piano enters, breathy layered harmonies]  </div>
+A flicker lit the room, then faded in my hands,  
+Still the echo whispered: you are more than this.
+
+<div class='verse-section'>[Chorus / Hook — warm synth pad, gentle drum pulse, soaring vocal lift]  </div>
+<div class='verse-section'>[Hook] Just the thought was magical, even for a while,  </div>
+<div class='verse-section'>[Hook] Heartbreak took the moment, but hope stayed alive,  </div>
+Through the ache, through the quiet, I still hear you say,  
+“Love is stronger, it will find its way.”
+
+<div class='verse-section'>[Verse 2 — muted guitar strums, background hum like heartbeat]  </div>
+Sterile rooms, white walls, long corridors,  
+Hormones tracing storms inside my veins,  
+But your voice carried me—steady, unshaken,  
+A lighthouse in the fog, a promise I could lean on.
+
+<div class='verse-section'>[Bridge — stripped down, single piano with reverb, hushed vocal delivery]  </div>
+Grief pressed against my chest like nightfall,  
+Yet in the dark I saw a lantern glow—  
+Your hands around mine, your light around me,  
+Even loss could not take that away.
+
+<div class='verse-section'>[Chorus / Hook — full arrangement returns, layered backing vocals]  </div>
+<div class='verse-section'>[Hook] Just the thought was magical, even for a while,  </div>
+<div class='verse-section'>[Hook] Heartbreak took the moment, but hope stayed alive,  </div>
+Through the ache, through the quiet, I still hear you say,  
+“Love is stronger, it will find its way.”
+
+<div class='verse-section'>[Outro — instruments thin out, female vocals soft + intimate]  </div>
+In the hush of night, I keep that spark,  
+Shadows can’t erase what lit my heart,  
+It was magical … even for a while.
+
+---
+
+This one leans more impressionistic — less narrative, more imagery (stars, vials, lighthouses, shadows) to embody her emotional arc.        </div>
+        <button class="copy-button" onclick="copyLyrics()">ðŸ“‹ Copy Lyrics</button>
+        <div class="lyrics-footer">[End Lyrics]</div>
+    </div>
+
+    <script>
+        function copyLyrics() {
+            const lyricsElement = document.getElementById('lyricsContent');
+            const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+            
+            // Create a temporary textarea to copy text
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = 'âœ… Copied!';
+            button.style.background = '#28a745';
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.style.background = '#007acc';
+            }, 2000);
+        }
+        
+        // Alternative copy method for modern browsers
+        if (navigator.clipboard) {
+            function copyLyrics() {
+                const lyricsElement = document.getElementById('lyricsContent');
+                const textToCopy = lyricsElement.innerText || lyricsElement.textContent;
+                
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const button = event.target;
+                    const originalText = button.innerHTML;
+                    button.innerHTML = 'âœ… Copied!';
+                    button.style.background = '#28a745';
+                    
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.style.background = '#007acc';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy text: ', err);
+                    alert('Copy failed. Please select the text manually.');
+                });
+            }
+        }
+    </script>
+</body>
+</html>
