@@ -1,0 +1,140 @@
+**Beyoncé**
+
+**Still Carried\...An Angel**
+
+*A country ballad with gospel undertones, emotional depth, and a tender
+spoken-word verse*
+
+**\[Verse 1 -- warm, expressive female ONLY vocals with Southern soul
+inflection\]**\
+I had a melody growing inside me\
+Soft as a whisper, strong as flame\
+I wrote you lullabies for your first cries\
+Wrote your story before I knew your name\
+Hung the stars above a crib left hollow\
+Sang to silence, held on tight\
+The music stopped, but left its light\
+And your echo stays through every night
+
+**\[Chorus -- powerful female ONLY vocals, wide range, rich tone\]**\
+Now you're still carried, an angel I can't hold\
+Every word's a prayer, every note pure gold\
+There's a rhythm in my sorrow, a heartbeat in the rain\
+You're still carried, forever in my veins\
+Yes, you're still carried... still carried again
+
+**\[Verse 2 -- soulful female ONLY vocals with gospel undertones\]**\
+They said "these things just happen"\
+But that won't quiet the storm\
+I lit a candle in the chapel\
+And found my spirit reborn\
+I had to mother my own spirit\
+Before I could mother you\
+Now I see you in each sunrise\
+In everything I do
+
+**\[Chorus -- powerful female ONLY vocals\]**\
+You're still carried, an angel I'll always love\
+Every word's a kiss I never gave enough\
+There's a beauty in this broken, a healing in the pain\
+You're still carried, in sunshine and rain\
+Yes, you're still carried... still carried again
+
+**\[Spoken Verse -- tender, introspective MALE only voice with gentle
+rhythm\]**\
+I know I missed the signs, lost in the grind\
+You were hurting while I chased time\
+I'm sorry for the nights you cried\
+For the dreams we built that never arrived\
+But I've learned this truth I hold so near:\
+Love don't vanish --- it changes roots each year\
+And you, my angel, are still carried here
+
+**\[Bridge -- soulful female ONLY vocals, gentle vibrato\]**\
+They say time will heal the hurting\
+But I feel you in the breeze\
+You're the hush between my verses\
+You're the roots beneath my trees\
+You're the shadow in my laughter\
+You're the silence in my song\
+You're the reason I keep singing\
+You've been with me all along
+
+**\[Final Chorus -- soaring female ONLY vocals\]**\
+You're still carried, an angel I still know\
+Every word's a light, every note I sow\
+There's a gospel in this grieving, a fire in the rain\
+You're still carried --- in joy, in pain\
+Yes, you're still carried... forever again
+
+**\[Outro -- soft, almost whispered female vocal\]**\
+Still carried... my angel... still carried again.
+
+**Style Sheet:**\
+Country ballad with soulful FEMALE vocals, gospel undertones, emotional
+depth, and introspective male SPOKEN verse; acoustic guitar, piano,
+strings, light trap percussion, FEMALE singer,
+
+**Still Carried...An Angel" -- A Song of Grief, Grace, and Eternal
+Connection**
+
+"**Still Carried...An Angel**" is a deeply emotional country ballad that
+channels the raw vulnerability and spiritual resilience of a mother
+mourning a child lost to miscarriage. Inspired by Beyoncé's own
+experience with pregnancy loss, the song is a tribute to the silent
+strength of women who carry the memory of their children in their
+hearts, even when they cannot carry them in their arms.
+
+The song opens with a **warm, expressive female vocal** that evokes
+Southern soul, setting the tone with poetic imagery: a melody growing
+inside, lullabies written for a child never born, and stars hung above a
+crib left hollow. These lines capture the bittersweet anticipation and
+heartbreak of a pregnancy that ends too soon. The verse is tender yet
+powerful, painting a picture of love that transcends physical presence.
+
+The **chorus** swells with gospel-infused emotion, declaring that the
+child is "still carried" --- not in the womb, but in spirit, in memory,
+and in every heartbeat. The phrase becomes a mantra of remembrance,
+transforming grief into a sacred rhythm. The use of **rich, wide-ranging
+female vocals** adds a soaring, almost spiritual quality, reinforcing
+the idea that love and loss are intertwined in a divine dance.
+
+In the **second verse**, the lyrics confront the platitudes often
+offered in times of loss --- "these things just happen" --- and reject
+them in favor of spiritual rebirth. The mother lights a candle in a
+chapel, symbolizing her journey toward healing. She learns to mother her
+own spirit before she can mother the memory of her child, a profound
+reflection on self-compassion and resilience.
+
+A **spoken-word male verse** introduces a new perspective: the partner's
+regret and introspection. Delivered with gentle rhythm and tenderness,
+it acknowledges missed signs and emotional absence, offering a heartfelt
+apology and a revelation --- that love doesn't disappear, it simply
+changes form. This verse adds emotional complexity and balance, giving
+voice to the often-unspoken grief of fathers.
+
+The **bridge** is poetic and ethereal, likening the lost child to the
+breeze, the hush between verses, and the roots beneath trees. These
+metaphors suggest that the child's presence is woven into the fabric of
+everyday life, invisible yet deeply felt. The **female vocals** here are
+soft and soulful, with gentle vibrato that conveys both fragility and
+strength.
+
+The **final chorus** is a crescendo of emotion, affirming that the child
+is "still carried" in joy and pain, in gospel and fire, in every note
+sung and every word spoken. The song ends with a whispered outro ---
+"Still carried... my angel... still carried again" --- a quiet
+benediction that lingers like a prayer.
+
+TAGS
+
+miscarriage song, Beyoncé inspired, Still Carried, SPL Project, country
+ballad, gospel music, emotional healing, pregnancy loss, angel baby,
+grief and music, female vocals, spoken word verse, healing through song,
+acoustic soul, gospel ballad, heartfelt lyrics, miscarriage awareness,
+tribute song, music for healing, spontaneous pregnancy loss, emotional
+country music, gospel country, healing journey, musical storytelling
+
+
+
+
