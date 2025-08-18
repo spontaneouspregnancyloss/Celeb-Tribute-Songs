@@ -717,4 +717,303 @@
                         </tr>
                         <tr>
                             <td class="artist-name">Ms. Rachel</td>
-                            <t
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Myleene Klass</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter N -->
+        <div class="artist-section">
+            <div class="letter-header">N</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Nick Carter & Lauren Kitt</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Nick Viall & Natalie Joy</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td><a href="https://www.youtube.com/watch?v=atGBnmEU680" class="video-link">🎥 Watch</a></td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Nicola Sturgeon</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Nicole Kidman</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter O -->
+        <div class="artist-section">
+            <div class="letter-header">O</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Olivia Bowen & Alex Bowen</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter P -->
+        <div class="artist-section">
+            <div class="letter-header">P</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">P!nk (Alecia Moore)</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Priscilla Chan & Mark Zuckerberg</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter R -->
+        <div class="artist-section">
+            <div class="letter-header">R</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Rebecca Adlington & Dr. Zoe Williams</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter S -->
+        <div class="artist-section">
+            <div class="letter-header">S</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Sammi "Sweetheart" Giancola</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Sanya Richards-Ross</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Savannah Guthrie</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Sharon Stone</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Shay Mitchell</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter T -->
+        <div class="artist-section">
+            <div class="letter-header">T</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Tiffany Haddish</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td class="artist-name">Trina McGee</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter V -->
+        <div class="artist-section">
+            <div class="letter-header">V</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Vanessa Grimaldi</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter W -->
+        <div class="artist-section">
+            <div class="letter-header">W</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Whitney Port</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Letter Z -->
+        <div class="artist-section">
+            <div class="letter-header">Z</div>
+            <div class="artist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Artist</th>
+                            <th style="width: 30%;">Tribute Song 1</th>
+                            <th style="width: 30%;">Tribute Song 2</th>
+                            <th style="width: 15%;">Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="artist-name">Zara Tindall</td>
+                            <td><a href="#" class="tribute-link">Tribute Song 1</a></td>
+                            <td><a href="#" class="tribute-link">Tribute Song 2</a></td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="note">
+            <em>Each tribute song represents a unique musical interpretation of resilience, hope, and healing. These compositions honor not only the public figures who have shared their stories, but all individuals who have experienced pregnancy loss.</em>
+        </div>
+    </div>
+</body>
+</html>
