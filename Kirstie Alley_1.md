@@ -11,23 +11,6 @@
 - **Duration:** 4:12  
 - **Record Label:** SPL Records  
 - **Date Added:** 2025-08-17
-
----
-
-## Style Descriptions
-### 200 Character Style  
-Cinematic adult contemporary with theatrical phrasing, piano-led arrangement, ambient strings, and emotionally raw vocals. Slow tempo and dramatic swells support reflective storytelling.
-
-### 300 Character Style  
-Cinematic adult contemporary with theatrical phrasing and piano-led arrangement. Ambient strings and emotionally raw vocals build around slow tempo and dramatic swells. Reflective storytelling and grief-centered lyricism drive the emotional arc.
-
----
-
-## Song Description  
-“Still Pregnant” is a deeply personal ballad drawn from Kirstie Alley’s own account of miscarriage. The song explores the surreal aftermath of loss—when the body continues to behave as if pregnant, even after the baby is gone. With haunting piano and ambient strings, the lyrics trace her emotional and physical confusion, grief, and the devastating realization that she may never carry a child. The song’s theatrical structure mirrors Kirstie’s expressive personality, blending vulnerability with cinematic intensity. It’s a tribute to the invisible aftermath of miscarriage and the resilience found in naming the pain.
-
----
-
 ## Lyrics
 ```
 [Intro]  
