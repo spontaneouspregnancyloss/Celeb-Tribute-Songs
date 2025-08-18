@@ -1,25 +1,4 @@
-Templater: Replace templates in the active file**Binky Felstead_Lyrics to Song**
-
-**Binky Felstead**
-
-> [The 1^st^ Song]{.mark}
-
-**Track Title: *Sunset in the Field***
-
-**Inspired by**: Binky Felstead's miscarriage story\
-**Project**: SPL Project\
-**[Style Sheet (200 characters)]{.mark}**
-
-Acoustic pop ballad with soft female vocals, cinematic strings, and
-emotional storytelling. Warm, reflective tone with poetic hooks and
-gentle instrumentation for healing and connection.
-
-**[Style Sheet (300 characters)]{.mark}**
-
-A cinematic acoustic pop ballad featuring soft, expressive female vocals
-and poetic storytelling. Gentle guitar, piano, and strings create a
-warm, reflective mood. Designed to resonate across age groups with
-themes of miscarriage, remembrance, and emotional healing.
+**Binky Felstead_Lyrics to Song**
 
 **Lyrics**
 
@@ -92,12 +71,6 @@ You were real, you were mine,\
 In a moment, in a sign---\
 And I carry you in light,\
 Through the sunset in the field.
-
-> [The 2^nd^ song]{.mark}
-
-paste into AI style boxes:
-
-------------------------------------------------------------------------
 
 
 
