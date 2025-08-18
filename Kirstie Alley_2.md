@@ -1,7 +1,3 @@
-
----
-
-## Song Information
 - **Artist(s):** Kirstie Alley  
 - **Song Title:** There Will Be Babies  
 - **Album:** Still Carried  
@@ -10,22 +6,6 @@
 - **Duration:** 4:08  
 - **Record Label:** SPL Records  
 - **Date Added:** 2025-08-17
-
----
-
-## Style Descriptions
-### 200 Character Style  
-Cinematic adult contemporary with piano, ambient strings, and hopeful melodic phrasing. Emotional but uplifting tone with theatrical dynamics and a slow build toward resolution.
-
-### 300 Character Style  
-Cinematic adult contemporary with piano, ambient strings, and hopeful melodic phrasing. Emotional but uplifting tone with theatrical dynamics and a slow build toward resolution. Vocals should be expressive and resilient, reflecting grief and determination.
-
----
-
-## Song Description  
-“There Will Be Babies” is the second SPL-themed track inspired by Kirstie Alley’s miscarriage experience. Unlike the haunting grief of “Still Pregnant,” this song captures her emotional strength and belief in future motherhood. Kirstie’s quote—“There will be babies”—serves as the emotional anchor, expressing her refusal to let loss define her future. The song’s structure mirrors her journey from devastation to hope, with cinematic swells and theatrical phrasing that reflect her expressive personality. It’s a ballad of resilience, written for anyone who’s dared to hope again after heartbreak.
-
----
 
 ## Lyrics
 ```
