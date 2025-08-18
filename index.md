@@ -1,4 +1,4 @@
-# SPL Public Figure Tribute Songs
+# SPL Public Figure Tribute Songs - Contact ‪(414) 301-2457 Us if You Are Interested in Voicing or Producing Any Of These Songs 
 
 ## Why SPL Creates Tribute Songs for Public Figures
 
@@ -6,7 +6,7 @@ In a world where celebrity culture intersects with deeply personal experiences, 
 
 These tribute songs serve as both a celebration of their bravery and a source of comfort for the countless individuals who find solace in knowing they're not alone. By honoring these public figures through music, SPL creates a bridge between celebrity experiences and everyday healing, transforming personal pain into collective strength and understanding.
 
-## Featured Artists & Their Tribute Songs
+## Featured Artists & Their Tribute Songs - Not All Lyrics Are Posted
 
 ### A
 - **Alanis Morissette** - [Tribute Song 1](Alanis%20Morissette.md) | [Tribute Song 2](Alanis%20Morissette%201.md)
