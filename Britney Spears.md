@@ -1,14 +1,10 @@
  **Britney Spears_Lyrics to Song**
->
-> Britney Spears
 
 **Track Title: Miracle in the Silence (female vocals)**
 
 **Inspired by**: Britney Spears' miscarriage in 2022
 
 **Project**: SPL Project
-
-------------------------------------------------------------------------
 
 **Lyrics**
 
@@ -131,39 +127,4 @@ In the bloom before the fall---
 And I carry you in silence,
 
 Where the miracle still calls.
-
-------------------------------------------------------------------------
-
-**Suno-Style Production Notes (Paragraph Form)**
-
-This track is a cinematic pop ballad with emotional storytelling rooted
-in Britney Spears' real-life miscarriage experience. The female vocal
-should be intimate, vulnerable, and resilient---delivered with clarity
-and warmth. Instrumentation should include piano, ambient pads, and soft
-strings to evoke a sense of quiet strength and healing. The hook is
-designed to be emotionally resonant and universal, capturing the
-bittersweet beauty of early pregnancy loss. The production should feel
-spacious and reflective, allowing the lyrics to carry the weight of
-personal truth and shared empathy.
-
-------------------------------------------------------------------------
-
-**Style Sheet (200 characters)**
-
-Cinematic pop ballad with soft female vocals, ambient textures, and
-emotional storytelling. Reflective tone with gentle instrumentation and
-a hook that honors early pregnancy loss and healing.
-
-------------------------------------------------------------------------
-
-**Style Sheet (300 characters)**
-
-A cinematic pop ballad featuring soft, expressive female vocals and
-ambient instrumentation. Piano and strings support a reflective,
-emotionally honest narrative inspired by Britney Spears' miscarriage
-story. Designed to resonate across age groups with themes of loss,
-resilience, and healing.
-
-
-
 
