@@ -11,22 +11,6 @@
 - **Record Label:** SPL Records  
 - **Date Added:** 2025-08-17
 
----
-
-## Style Descriptions
-### 200 Character Style  
-Indie rock ballad with alt-pop textures, ambient guitar, moody synths, and emotionally raw vocals. Slow build with layered harmonies and a confessional tone. Reflective, vulnerable, and grounded.
-
-### 300 Character Style  
-Indie rock ballad with alt-pop textures. Ambient guitar, moody synths, and emotionally raw vocals create a confessional tone. Slow build with layered harmonies and restrained percussion. Lyrics reflect confusion, grief, and the search for meaning after miscarriage.
-
----
-
-## Song Description  
-“No Answer to the Why” is Kristen Doute’s first SPL-themed track, drawn from her deeply personal miscarriage experience. The song captures the emotional chaos of discovering she was miscarrying while far from medical help, and the helplessness of hearing that there was no explanation. With ambient guitar and moody synths, the track builds slowly, mirroring Kristen’s emotional unraveling. Her confusion about progesterone and hCG becomes lyrical metaphor, while the chorus centers on the haunting phrase: “There’s no answer to the why.” It’s a song for anyone who’s been left with questions that medicine—and life—can’t answer.
-
----
-
 ## Lyrics
 ```
 [Intro]  
@@ -90,9 +74,3 @@ And I’m still asking why.
 
 ## HashTags  
 #StillCarried #SpontaneousPregnancyLoss #PregnancyLossAwareness #SPLProject
-
-She experienced a miscarriage at six weeks while out of town with her fiancé. She described the experience as terrifying, confusing, and emotionally overwhelming:
-
-> “I woke up in the morning and I started bleeding… We were nowhere near my doctor… My progesterone was just nothing… I didn’t even know what hCG meant… I remember asking my doctor, ‘Why? What happened?’ And he’s like, ‘This is just one of those things where there is no answer to the why.’” [1](https://people.com/kristen-doute-says-the-hardest-part-after-her-miscarriage-was-dealing-with-the-fact-that-theres-no-f-answer-11708193)
-
-Kristen’s public persona and her clothing line’s vintage rock aesthetic suggest a genre leaning toward **indie rock ballad with alt-pop textures**—raw, emotional, and grounded.
